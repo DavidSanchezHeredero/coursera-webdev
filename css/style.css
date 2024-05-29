@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+section {
+    position: relative;
+}
+
+h1 {
+    font-size: 175%;
+    text-align: center;
+}
+
+.tag {
+    padding: 40px 10px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .col-4 {
+        width: 30.3%;
+        float: left;
+        background-color: aliceblue;
+        border: 1px solid black;
+    }
+    .tag-margin {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .col-2 {
+        width: 47%;
+        float: left;
+        background-color: aliceblue;
+        border: 1px solid black;
+        margin-left: 2%;
+    }
+    .tag2-margin {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    .col-u {
+        width: 96%;
+        background-color: aliceblue;
+        clear: both;
+        border: 1px solid black;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-1 {
+        width: 96%;
+        float: left;
+        background-color: aliceblue;
+        border: 1px solid black;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+section.title {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    border: 1px black solid;
+    width: 20%;
+    padding: 10px 10px 5px 10px;
+    font-size: 125%;
+}
+
+#chicken {
+    background-color: pink;
+}
+
+#beef {
+    background-color: red;
+}
+
+#sushi {
+    background-color: salmon;
+}
